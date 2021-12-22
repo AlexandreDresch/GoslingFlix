@@ -1,0 +1,53 @@
+:root {
+    --red: #E50914;
+    --black: #141414;
+}
+
+/* RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BASE ELEMENTS */
+
+body {
+    background: var(--black);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    margin-left: 5px;
+    color: var(--red);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: #fff;
+}
+
+/* MOVIE ELEMENTS */
+
+.principal-movie {
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0 , 0, .50), rgba(0, 0 , 0, .50)100%), url('../img/bladerunner2049background.jpg');
+    height: 400px;
+    background-size: cover;
+}
+
+/*16min*/
