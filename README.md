@@ -1,2 +1,3 @@
-# Netflix-front-end
- Clone responsivo do front-end do site da Netflix.
+# GoslingFlix-front-end
+ Projeto front-end de um site dedicado à vida e obra de Ryan Gosling, inspirado no site da Netflix.
+ Projeto adaptado tanto para mobile, quanto para PC.
